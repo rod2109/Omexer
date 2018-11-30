@@ -1,0 +1,95 @@
+html ,
+body,
+header,
+#intro {
+  height: 1000px;
+}
+
+header {
+   font-family: 'TruenoRegular';
+   font-weight: normal;
+   font-style: normal;
+   color: white;
+}
+
+.bg-dark{
+  background: transparent !important;
+}
+
+.bg-dark.scrolled {
+  background: #120E40 !important;
+}
+
+.nav_style {
+  height: 100px;
+  font-weight: bold;
+}
+
+.nav_style .navbar-nav li a{
+  color: white !important;
+}
+
+#home {
+  color: #dd4ffc !important;
+}
+
+a {
+  margin: 0px 10px 0px 10px
+}
+
+.nav_style .navbar-nav li a:hover{
+  color: #dd4ffc !important;
+}
+
+.brand_style {
+  padding-right: 60px;
+}
+
+#intro {
+background: url(../images/background.png) no-repeat center center fixed;
+background-size: cover;
+}
+.button-gradient {
+    background-image: linear-gradient(-30deg, #6058f9 0%, #dd4ffc 100%);
+    border-radius: 50px;
+}
+
+.head_style {
+  color: white;
+  text-align: left;
+  float: left;
+  margin: 250px 0px 0px 0px;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.phone_img {
+  margin-top: 90px;
+}
+
+.text {
+  padding-bottom: 40px
+}
+
+i {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
